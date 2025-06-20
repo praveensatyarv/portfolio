@@ -1,5 +1,6 @@
 import React from 'react';
 import { Target, Lightbulb, TrendingUp, Github, Linkedin } from 'lucide-react';
+import profilePic from '../assets/casual_profile_photo.jpg';
 
 const About = () => {
   return (
@@ -10,8 +11,8 @@ const About = () => {
           <div className="relative">
             <div className="relative z-10">
               <img 
-                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt="Profile" 
+                src={profilePic}
+                alt="Praveen Satya R V - Profile" 
                 className="w-80 h-80 rounded-full mx-auto object-cover shadow-2xl border-4 border-white"
               />
             </div>
@@ -25,13 +26,9 @@ const About = () => {
                 About Me
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                I'm a data enthusiast who loves finding hidden patterns in data to solve real-world problems. 
-                With each project, I aim to turn complex data into clear, practical insights that help guide 
-                smart decisions and drive impact.
-              </p>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                My goal is to make data meaningful and useful, whether through predictive models or visual 
-                dashboards that tell compelling stories.
+                Hello! I am Praveen Satya. 
+                I am a data enthusiast who’s passionate about uncovering actionable insights that drive real business value. 
+                I enjoy transforming complex data into clear, practical solutions—whether that means building AI-powered tools, automating workflows, or creating dashboards that make an impact.
               </p>
             </div>
 

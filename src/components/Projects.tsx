@@ -28,7 +28,7 @@ const Projects = () => {
       description: "This project uses Prophet model to detect anomalies in the UK flight numbers. Early detection can help stakeholders in better decision making.",
       image: "https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&w=800",
       link: "https://www.linkedin.com/pulse/anomaly-detection-aviation-industry-praveen-satya-r-v--yxuwc/",
-      tags: ["Prophet Model", "Anomaly Detection", "Time Series"]
+      tags: ["Anomaly Detection", "Time Series", "Python", "Prophet Model"]
     },
     {
       id: 4,
@@ -37,7 +37,7 @@ const Projects = () => {
       description: "This project utilizes time series forecasting models, such as VAR and ARIMAX, to predict the bike share demand in Seoul.",
       image: "https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&w=800",
       link: "https://www.linkedin.com/pulse/forecasting-bike-share-demand-seoul-praveen-satya-r-v--hif5c/",
-      tags: ["Time Series", "VAR", "ARIMAX", "Forecasting"]
+      tags: ["R Studio", "Time Series", "Forecasting", "VAR", "ARIMAX"]
     },
     {
       id: 5,
@@ -46,7 +46,7 @@ const Projects = () => {
       description: "This project deals with a unique dataset of tweets, each labeled with emotions. The objective is to develop predictive models for multi-emotion classification.",
       image: "https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=800",
       link: "https://www.linkedin.com/pulse/emotion-detection-tweets-using-nlp-praveen-satya-r-v--x7ivc/",
-      tags: ["NLP", "Machine Learning", "Text Analysis"]
+      tags: ["NLP", "Machine Learning", "Text Analysis", "TensorFlow", "Python"]
     },
     {
       id: 6,
@@ -55,7 +55,7 @@ const Projects = () => {
       description: "E-commerce faces low conversion rates. This project builds a machine learning model to predict purchase behavior and address class imbalance challenges.",
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
       link: "https://www.linkedin.com/pulse/online-shoppers-purchasing-intent-classification-problem-r-v--xyqfc/",
-      tags: ["Machine Learning", "E-commerce", "Classification"]
+      tags: ["Machine Learning", "E-commerce", "Classification", "SMOTE", "Python"]
     },
     {
       id: 7,
@@ -64,7 +64,7 @@ const Projects = () => {
       description: "The second-hand car market is diverse and growing. This project uses a data-driven approach to identify the best car brands for buyers.",
       image: "https://images.pexels.com/photos/100653/pexels-photo-100653.jpeg?auto=compress&cs=tinysrgb&w=800",
       link: "https://www.linkedin.com/pulse/navigating-second-hand-car-market-data-driven-approach-r-v--css5e/",
-      tags: ["Market Analysis", "Data Visualization", "Consumer Insights"]
+      tags: ["Tableau", "Market Analysis", "Data Visualization", "Consumer Insights"]
     },
     {
       id: 8,

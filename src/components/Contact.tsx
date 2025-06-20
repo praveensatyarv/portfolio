@@ -121,7 +121,7 @@ const Contact = () => {
         {/* Footer */}
         <div className="mt-16 pt-8 border-t border-gray-200 text-center">
           <p className="text-gray-600">
-            © 2025 Praveen Satya R V. Designed with passion for data and analytics.
+            © 2025 Praveen Satya R V Designed with passion for data and analytics.
           </p>
         </div>
       </div>
