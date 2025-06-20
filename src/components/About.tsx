@@ -30,6 +30,10 @@ const About = () => {
                 I am a data enthusiast who’s passionate about uncovering actionable insights that drive real business value. 
                 I enjoy transforming complex data into clear, practical solutions—whether that means building AI-powered tools, automating workflows, or creating dashboards that make an impact.
               </p>
+              <p className="text-lg text-gray-600 leading-relaxed">
+                Outside of analytics, I thrive in competitive sports—bringing the same teamwork, adaptability, and drive from the court to the workplace. 
+                These qualities fuel my ability to collaborate, solve problems, and deliver results in fast-paced environments.
+              </p>
             </div>
 
             {/* Key Skills */}
