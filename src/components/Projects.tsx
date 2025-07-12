@@ -1,11 +1,21 @@
 import React from 'react';
 import { ExternalLink, Calendar, ArrowRight } from 'lucide-react';
+import vehicle_auction from '../assets/vehicle_auctions_analysis.jpg';
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Analyzing Ad Campaign Performance",
+      title: "Vehicle Auction Analysis",
+      date: "July 2025",
+      description: "This project uses vehicle auction data to identify key factors affecting sale prices and auction timelines, uncovering insights and strategies to optimize auction efficiency, inventory management, and overall sales performance.",
+      image: vehicle_auction,
+      link: "https://github.com/praveensatyarv/vehicle_auction_analysis",
+      tags: ["Inventory Management", "Predictive Analytics", "Sales Performance Analysis", "Python"]
+    },
+    {
+      id: 2,
+      title: "Ad Performance Analysis",
       date: "May 2025",
       description: "This project analyzes ad campaign performance using an interactive marketing dashboard built on Looker Studio.",
       image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=800",
@@ -13,7 +23,7 @@ const Projects = () => {
       tags: ["Looker Studio", "Marketing Analytics", "Dashboard"]
     },
     {
-      id: 2,
+      id: 3,
       title: "Customer Churn Analysis",
       date: "May 2025",
       description: "This project analyzes an Internet Service Provider's company data using Power BI to gain insights into their customer churn problem.",
@@ -22,7 +32,7 @@ const Projects = () => {
       tags: ["Power BI", "Customer Analytics", "Churn Prediction"]
     },
     {
-      id: 3,
+      id: 4,
       title: "Anomaly Detection in Aviation Industry",
       date: "January 2025",
       description: "This project uses Prophet model to detect anomalies in the UK flight numbers. Early detection can help stakeholders in better decision making.",
@@ -31,7 +41,7 @@ const Projects = () => {
       tags: ["Anomaly Detection", "Time Series", "Python", "Prophet Model"]
     },
     {
-      id: 4,
+      id: 5,
       title: "Forecasting Bike Share Demand in Seoul",
       date: "January 2025",
       description: "This project utilizes time series forecasting models, such as VAR and ARIMAX, to predict the bike share demand in Seoul.",
@@ -40,7 +50,7 @@ const Projects = () => {
       tags: ["R Studio", "Time Series", "Forecasting", "VAR", "ARIMAX"]
     },
     {
-      id: 5,
+      id: 6,
       title: "Emotion Detection in Tweets Using NLP",
       date: "January 2025",
       description: "This project deals with a unique dataset of tweets, each labeled with emotions. The objective is to develop predictive models for multi-emotion classification.",
@@ -49,7 +59,7 @@ const Projects = () => {
       tags: ["NLP", "Machine Learning", "Text Analysis", "TensorFlow", "Python"]
     },
     {
-      id: 6,
+      id: 7,
       title: "Online Shopper's Purchasing Intent",
       date: "December 2024",
       description: "E-commerce faces low conversion rates. This project builds a machine learning model to predict purchase behavior and address class imbalance challenges.",
@@ -58,7 +68,7 @@ const Projects = () => {
       tags: ["Machine Learning", "E-commerce", "Classification", "SMOTE", "Python"]
     },
     {
-      id: 7,
+      id: 8,
       title: "Second-Hand Car Market Analysis",
       date: "November 2024",
       description: "The second-hand car market is diverse and growing. This project uses a data-driven approach to identify the best car brands for buyers.",
@@ -67,13 +77,13 @@ const Projects = () => {
       tags: ["Tableau", "Market Analysis", "Data Visualization", "Consumer Insights"]
     },
     {
-      id: 8,
+      id: 9,
       title: "Sales Dashboard and Analysis",
       date: "December 2023",
       description: "This project builds a comprehensive sales dashboard, analyzing it using different sales and marketing strategies to boost performance.",
       image: "https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=800",
       link: "https://github.com/praveensatyarv/sales_dashboard_powerbi",
-      tags: ["Power BI", "Sales Analytics", "Dashboard"]
+      tags: ["Power BI", "Sales Analytics", "Dashboard", "MySQL"]
     }
   ];
 
@@ -97,12 +107,19 @@ const Projects = () => {
               className="group bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 overflow-hidden border border-gray-100"
             >
               <div className="relative overflow-hidden">
-                <img 
-                  src={project.image} 
-                  alt={project.title}
-                  className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                <a 
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
+                >
+                  <img 
+                    src={project.image} 
+                    alt={project.title}
+                    className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110 cursor-pointer"
+                  />
+                </a>
+                <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
                 <div className="absolute top-4 left-4">
                   <div className="flex items-center text-white bg-black/20 backdrop-blur-sm px-3 py-1 rounded-full text-sm">
                     <Calendar className="w-4 h-4 mr-1" />
