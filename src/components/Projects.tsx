@@ -1,11 +1,21 @@
 import React from 'react';
 import { ExternalLink, Calendar, ArrowRight } from 'lucide-react';
 import vehicle_auction from '../assets/vehicle_auctions_analysis.jpg';
+import brazilian_ecommerce from '../assets/brazilian_ecommerce.jpg';
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Supply Chain Analytics in Brazilian E-Commerce",
+      date: "July 2025",
+      description: "This project uses e-commerce logistics data from Olist to analyze freight costs, shipment delays, and delivery cycle times. It uncovers bottlenecks in last-mile delivery, seller performance, and geographic hotspots, offering data-driven strategies to optimize supply chain visibility, inventory planning, and logistics efficiency.",
+      image: brazilian_ecommerce,
+      link: "https://www.linkedin.com/pulse/part-2-logistics-supply-chain-analytics-utilizing-tableau-r-v--l9ugc",
+      tags: ["Supply Chain Analytics", "Logistics Analytics", "AWS Glue", "S3", "Tableau"]
+    },
+    {
+      id: 2,
       title: "Vehicle Auction Analysis",
       date: "July 2025",
       description: "This project uses vehicle auction data to identify key factors affecting sale prices and auction timelines, uncovering insights and strategies to optimize auction efficiency, inventory management, and overall sales performance.",
@@ -14,7 +24,7 @@ const Projects = () => {
       tags: ["Inventory Management", "Predictive Analytics", "Sales Performance Analysis", "Python"]
     },
     {
-      id: 2,
+      id: 3,
       title: "Ad Performance Analysis",
       date: "May 2025",
       description: "This project analyzes ad campaign performance using an interactive marketing dashboard built on Looker Studio.",
@@ -23,7 +33,7 @@ const Projects = () => {
       tags: ["Looker Studio", "Marketing Analytics", "Dashboard"]
     },
     {
-      id: 3,
+      id: 4,
       title: "Customer Churn Analysis",
       date: "May 2025",
       description: "This project analyzes an Internet Service Provider's company data using Power BI to gain insights into their customer churn problem.",
@@ -32,7 +42,7 @@ const Projects = () => {
       tags: ["Power BI", "Customer Analytics", "Churn Prediction"]
     },
     {
-      id: 4,
+      id: 5,
       title: "Anomaly Detection in Aviation Industry",
       date: "January 2025",
       description: "This project uses Prophet model to detect anomalies in the UK flight numbers. Early detection can help stakeholders in better decision making.",
@@ -41,7 +51,7 @@ const Projects = () => {
       tags: ["Anomaly Detection", "Time Series", "Python", "Prophet Model"]
     },
     {
-      id: 5,
+      id: 6,
       title: "Forecasting Bike Share Demand in Seoul",
       date: "January 2025",
       description: "This project utilizes time series forecasting models, such as VAR and ARIMAX, to predict the bike share demand in Seoul.",
@@ -50,7 +60,7 @@ const Projects = () => {
       tags: ["R Studio", "Time Series", "Forecasting", "VAR", "ARIMAX"]
     },
     {
-      id: 6,
+      id: 7,
       title: "Emotion Detection in Tweets Using NLP",
       date: "January 2025",
       description: "This project deals with a unique dataset of tweets, each labeled with emotions. The objective is to develop predictive models for multi-emotion classification.",
@@ -59,7 +69,7 @@ const Projects = () => {
       tags: ["NLP", "Machine Learning", "Text Analysis", "TensorFlow", "Python"]
     },
     {
-      id: 7,
+      id: 8,
       title: "Online Shopper's Purchasing Intent",
       date: "December 2024",
       description: "E-commerce faces low conversion rates. This project builds a machine learning model to predict purchase behavior and address class imbalance challenges.",
@@ -68,7 +78,7 @@ const Projects = () => {
       tags: ["Machine Learning", "E-commerce", "Classification", "SMOTE", "Python"]
     },
     {
-      id: 8,
+      id: 9,
       title: "Second-Hand Car Market Analysis",
       date: "November 2024",
       description: "The second-hand car market is diverse and growing. This project uses a data-driven approach to identify the best car brands for buyers.",
@@ -77,7 +87,7 @@ const Projects = () => {
       tags: ["Tableau", "Market Analysis", "Data Visualization", "Consumer Insights"]
     },
     {
-      id: 9,
+      id: 10,
       title: "Sales Dashboard and Analysis",
       date: "December 2023",
       description: "This project builds a comprehensive sales dashboard, analyzing it using different sales and marketing strategies to boost performance.",
